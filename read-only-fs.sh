@@ -67,7 +67,7 @@ selectN() {
 }
 
 SYS_TYPES=(Pi\ 3\ /\ Pi\ Zero\ W All\ other\ models)
-WATCHDOG_MODULES=(bcm2835_wdog bcm2708_wdog)
+WATCHDOG_MODULES=(bcm2835_wdt bcm2708_wdog)
 OPTION_NAMES=(NO YES)
 
 echo -n "Enable boot-time read/write jumper? [y/N] "
